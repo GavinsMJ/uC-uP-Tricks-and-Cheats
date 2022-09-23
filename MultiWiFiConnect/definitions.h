@@ -32,12 +32,12 @@
 
 
 //Higher Priority networks
-const char* PKNOWN_SSID[] = {"RSSIIoT"};
-const char* PKNOWN_PASSWORD[] = {"/88/88/88/rss"};
+const char* PKNOWN_SSID[] = {"net1"};
+const char* PKNOWN_PASSWORD[] = {"net1Password"};
 
 //Lower Priority Networks
-const char* KNOWN_SSID[] = {"Gavin__", "Gavins_", "Gavin"};
-const char* KNOWN_PASSWORD[] = {"12348765", "qwerty1234",  "/88/88/88/"};
+const char* KNOWN_SSID[] = {"Net2", "net3", "net4"};
+const char* KNOWN_PASSWORD[] = {"net2pass", "net3pass",  "net4pass"};
 
 // number of known networks
 const int   PKNOWN_SSID_COUNT = sizeof(PKNOWN_SSID) / sizeof(PKNOWN_SSID[0]); 
