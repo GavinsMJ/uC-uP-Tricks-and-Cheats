@@ -10,3 +10,4 @@ Avoid using the String class completely - uses far less ram, no mysterious bugs 
 
 
 # Separate_delimited_Strings
+Separate delimited strings into an array of strings. Useful for parsing CSV files or other delimited strings.
